@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'avantgarde';
-    src: url('fonts/avantgarde.TTF') format('truetype'); /* Adjust the path if necessary */
+    src: url('avantgarde.TTF') format('truetype'); /* Adjust the path if necessary */
     font-weight: normal;
     font-style: normal;
 }

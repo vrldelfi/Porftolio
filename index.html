@@ -24,7 +24,8 @@
           aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -51,29 +52,30 @@
   </header>
 
   <div class="cuerpo">
-    <div class="bloque-color"></div>
-    <div class="div-yo">
-      <h1 class="h1-delfina"> ☆ DELFINA VARELA ☆</h1>
-      <h2>Estudiante Universitaria en Programación y Técnica en Diseño Gráfico</h2>
-      <img class="img-yo" src="yo.jpg" alt="yo">
-      <br>
-      <p class="introduccion">Hola!! Mi nombre es Delfi, soy de San Jorge, Santa Fe, aunque actualmente me encuentro
-        residiendo en la ciudad de Rosario desde hace ya cuatro años a causa de mis estudios. Estoy cursando el primer
-        año en la Tecnicatura en Programación en la UTN (Universidad Tecnológica Nacional). En 2023 me gradué de la
-        tecnicatura en Diseño Gráfico en la UAI (Universidad Abierta Interamericana). Por lo que me encuentro encaminada
-        a unir mis conocimientos de diseño con lo máximo que pueda aprender de las tecnologías de la actualidad. </p>
-
+    <div class="container-descripcion">
+      <div class="bloque-color"></div>
+      <div class="div-yo">
+        <h1 class="h1-delfina"> ☆ DELFINA VARELA ☆</h1>
+        <h2>Estudiante Universitaria en Programación y Técnica en Diseño Gráfico</h2>
+        <img class="img-yo" src="yo.jpg" alt="yo">
+        <br>
+        <p class="introduccion">Hola!! Mi nombre es Delfi, soy de San Jorge, Santa Fe, aunque actualmente me encuentro
+          residiendo en la ciudad de Rosario desde hace ya cuatro años a causa de mis estudios. Estoy cursando el primer
+          año en la Tecnicatura en Programación en la UTN (Universidad Tecnológica Nacional). En 2023 me gradué de la
+          tecnicatura en Diseño Gráfico en la UAI (Universidad Abierta Interamericana). Por lo que me encuentro
+          encaminada
+          a unir mis conocimientos de diseño con lo máximo que pueda aprender de las tecnologías de la actualidad. </p>
+      </div>
     </div>
-    <br>
-    <div class="div-medio"></div>
-    <h2 class="mis-gustos"> ⋆｡°✩ MIS GUSTOS ✩°｡⋆ </h2>
-    <ul class="ul-lista-gustos">
-      <li>Te de frutilla</li>
-      <li>Hot Wheels</li>
-      <li>Caramelos de menta y chocolate</li>
-      <li>Pool</li>
-    </ul>
-    <br>
+    <div class="container-proyectos">
+    <h2 class="mis-proyectos"> ⋆｡°✩ MIS PROYECTOS ✩°｡⋆ </h2>
+      <div class="container-cada-proyecto">
+        <div id="proyecto">
+          <img src="" alt="">
+        </div>
+
+      </div>
+  </div>
     <div class="div-yo2">
       <h1 class="contacto"> Contacto </h1>
       <form>
@@ -86,7 +88,7 @@
         <br>
         <div class="form-apellido">
           <span id="apellido" class="apellido">
-            Apellido 
+            Apellido
           </span>
           <input type="text" name="Apellido" id="Apellido" placeholder="Varela">
         </div>
@@ -100,7 +102,8 @@
         <br>
         <div class="form-mensaje">
           <label for="mensaje" class="form-label">Escribe aquí tu mensaje</label>
-          <textarea class="form-control" id="mensaje" rows="3" placeholder="Hola! Me gustaría hacerte una consulta..."></textarea>
+          <textarea class="form-control" id="mensaje" rows="3"
+            placeholder="Hola! Me gustaría hacerte una consulta..."></textarea>
         </div>
         <br>
         <button type="submit" class="form-button"> Enviar</button>
@@ -112,15 +115,15 @@
 <hr>
 <footer>
   <div class="cosa-y-marca">
-  <span id="otros-concactos" class="otros-contactos">
-    Otras medios de contacto:
-  </span>
-  <a href="https://www.linkedin.com/in/delfina-varela/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
-  <a href="https://www.instagram.com/deffvarela/"><i class="fa-brands fa-instagram"></i></a>
-  <a href="delfivarela26@gmail.com"><i class="fa-regular fa-envelope"></i> </a>
+    <span id="otros-concactos" class="otros-contactos">
+      Otras medios de contacto:
+    </span>
+    <a href="https://www.linkedin.com/in/delfina-varela/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/deffvarela/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="delfivarela26@gmail.com"><i class="fa-regular fa-envelope"></i> </a>
 
     <br> <br>
-    <h4 class="fecha"> Septiembre - 2024 / 15:25 - Delfina Varela</h4> 
+    <h4 class="fecha"> Septiembre - 2024 / 15:25 - Delfina Varela</h4>
     <span> <img class="marca" src="marca-15.png" alt="marca"></span>
   </div>
 </footer>

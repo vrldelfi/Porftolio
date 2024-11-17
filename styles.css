@@ -87,6 +87,9 @@ html {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+.container-descripcion{
+    border: 1px solid blue;
+}
 .div-yo{
     margin-top: -200px;
     margin-left: auto;
@@ -128,7 +131,7 @@ hr{
     margin-right: auto;
     background-color: #ff3535;
 }
-.mis-gustos{
+.mis-proyectos{
     color: black;
     font-size: 25px;
     font-weight: bolder;

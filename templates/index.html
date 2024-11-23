@@ -18,40 +18,7 @@
     crossorigin="anonymous"></script>
 
   <header>
-    <nav class="navbar bg-body-tertiary fixed-top">
-      <div class="container-fluid">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mis Proyectos</a>
-              </li>
-            </ul>
-            <form class="d-flex mt-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-              <button class="boton-buscar-nav" type="submit">Buscar</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </nav>
   </header>
 
   <div class="cuerpo">
@@ -72,43 +39,50 @@
     </div>
 
     <!-- Agregar el carrusel de imágenes aquí -->
-    <div class="container mt-5">
-      <h2 class="text-center">Mis Proyectos</h2>
-      <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-
-          <div class="carousel-item active position-relative">
-            <img src="/static/assets/revista-tapa.jpg" class="d-block w-100" alt="Proyecto 1">
-            <div class="carousel-caption-custom">
-              <a href="https://www.behance.net/gallery/194698079/ARCO-Architecture-Magazine" class="btn-custom">Ver Proyecto en Behance</a>
-            </div>
-          </div>
-    
-          <div class="carousel-item position-relative">
-            <img src="/static/assets/proyecto2.jpg" class="d-block w-100" alt="Proyecto 2">
-            <div class="carousel-caption-custom">
-              <a href="https://link-a-proyecto2.com" class="btn-custom">Ver Proyecto en Behance</a>
-            </div>
-          </div>
-    
-          <div class="carousel-item position-relative">
-            <img src="/static/assets/proyecto3.jpg" class="d-block w-100" alt="Proyecto 3">
-            <div class="carousel-caption-custom">
-              <a href="https://link-a-proyecto3.com" class="btn-custom">Ver Proyecto en Behance</a>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+             <div class="container-mis-proyectos">
+        <h2 class="text-center">MIS PROYECTOS </h2>
       </div>
     </div>
-    
+    <div class="container-carrusel">
+      <div class="container mt-5">
+
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active position-relative">
+              <img src="/static/assets/revista-tapa.jpg" class="d-block w-100" alt="Proyecto 1">
+              <div class="carousel-caption-custom">
+                <a href="https://www.behance.net/gallery/194698079/ARCO-Architecture-Magazine" target="_blank" class="btn-custom">Ver
+                  Proyecto en Behance</a>
+              </div>
+            </div>
+
+            <div class="carousel-item position-relative">
+              <img src="/static/assets/ros-tapa.png" class="d-block w-100" alt="Proyecto 2">
+              <div class="carousel-caption-custom">
+                <a href="https://www.behance.net/gallery/187560347/Rosario-Proyecto-de-Senaltica" target="_blank" class="btn-custom">Ver Proyecto en Behance</a>
+              </div>
+            </div>
+
+            <div class="carousel-item position-relative">
+              <img src="/static/assets/one-bird-tapa.jpg" class="d-block w-100" alt="Proyecto 3">
+              <div class="carousel-caption-custom">
+                <a href="https://www.behance.net/gallery/195606895/One-Bird-Branding-Proyect" target="_blank" class="btn-custom">Ver Proyecto en Behance</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
 
     <!-- CONTACTO -->
 
@@ -153,6 +127,7 @@
 <hr>
 <footer>
   <div class="cosa-y-marca">
+    <div class="center-contactos">
     <span id="otros-concactos" class="otros-contactos">
       Otras medios de contacto:
     </span>
@@ -164,6 +139,8 @@
     <h4 class="fecha"> Septiembre - 2024 / 15:25 - Delfina Varela</h4>
     <span> <img class="marca" src="/static/assets/marca-15.png" alt="marca"></span>
   </div>
+  </div>
+
 </footer>
 </div>
 <br>

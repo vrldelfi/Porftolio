@@ -16,63 +16,6 @@ html {
     margin-top: 40px;
 }
 
-/*-------- NAV BOOTSTRAP ----------*/
-
-.offcanvas-title{
-    font-weight: bolder;
-    color: #ff3535;
-    padding: 5px 10px;
-    font-size: 20px;
-}
-.boton-buscar-nav {
-    background-color: #ff3535; 
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    transition: background-color 0.2s ease; 
-}
-.navbar-toggler-icon{
-    color: #ff3535;
-}
-.boton-buscar-nav:hover {
-    background-color: #ffacac;
-}
-
-.offcanvas-body {
-    padding: 30px;
-}
-.offcanvas-start {
-    width: 250px;
-}
-
-.navbar-toggler {
-    position: absolute;
-    left: 15px;
-    top: 20px;
-  }
-
-/*-------- ENLACES ----------*/
-
-.nav-link {
-    font-weight: bold;
-    color: rgb(175, 175, 175); 
-}
-
-.nav-link:hover {
-    color: #ff3535; 
-}
-
-.nav-link.active {
-    color: #ff3535;
-}
-
-.form-control {
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    padding: 8px;
-}
-
 /*-------- BODY ----------*/
 
 .bloque-color{
@@ -159,9 +102,8 @@ footer{
 /*-------- FORM ----------*/
 .container-contacto{
     margin: 50px auto 0px auto;
-    width: 100%;
+    width: 1000px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
     padding: 40px;
 }
 .form-button{
@@ -194,6 +136,11 @@ h5{
     color: gray;
     font-weight: lighter;
 }
+.cosa-y-marca{
+    border: 1px solid red;
+    display: flex;
+    justify-content: start;
+}
 .marca{
     width: 60px;
     height: auto;
@@ -203,6 +150,28 @@ h5{
 }
 
 /*-------- PROYECTOS ----------*/
+.container-carrusel{
+    margin-top: -50px;
+    width: 1020px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-mis-proyectos{
+    background-color: #ff3535;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.text-center{
+    color: rgb(255, 255, 255);
+}
 .carousel-caption-custom {
     position: absolute;
     bottom: 0;
